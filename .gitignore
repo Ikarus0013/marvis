@@ -1,0 +1,22 @@
+# OS and editor files
+.DS_Store
+.claude/
+
+# Secrets (keep only the example file)
+.env
+.env.*
+!.env.example
+
+# Dependencies and environments
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Runtime data
+*.log
+*.db
+*.sqlite
+*.sqlite3
+*.sqlitedb
